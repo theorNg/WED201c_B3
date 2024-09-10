@@ -1,0 +1,264 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center; 
+    background: rgb(235, 235, 235);
+}
+
+.logo img{
+    width: 40%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #14A79F;
+}
+
+.menu .highlight{
+    background: #F79432;
+    color: white;
+    padding: 10px;
+}
+
+.menu .highlight:hover{
+    background: #14A79F;
+    cursor: pointer;
+}
+
+.smarthome{
+    display: flex;
+    align-items: center;
+    background: rgb(235, 235, 235);
+}
+
+.smarthome img{
+    width: 960px;
+    height: 600px;
+}
+
+.smarthome-content{
+    text-align: right;
+    width: 45%;
+}
+
+.smarthome-content h2{
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.smarthome-content p{
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.smarthome-content .line{
+    background: #14A79F;
+    color: transparent;
+    width:20%;
+    margin-top: -30px;
+    height: 8px;
+    margin-left: 77%;
+}
+
+.bestseller-saleoff{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.bestseller-content h1{
+    display: flex;
+    justify-content: center;
+    color: #14A79F;
+}
+
+.bestseller-noidung{
+    display: flex;
+    gap: 30px;
+}
+
+.bestseller{
+    background: rgb(235, 235, 235);
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.bestseller img{
+    padding: 25px 25px 0 25px;
+}
+
+.bestseller h4{
+    display: flex;
+    justify-content: center;
+}
+
+.bestseller .price{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -10px;    
+}
+
+.bestseller del{
+    color: gray;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.bestseller .buynow{
+    color: white;
+    background: orange;
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px;
+    width: 20%;
+    margin-left: 35%;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.saleoff h1{
+    display: flex;
+    justify-content: center;
+    color: #14A79F;
+}
+
+.saleoff table{
+    display: flex;
+    justify-content: center;
+    line-height: 69px;
+    margin-left: -50px;
+    width: 100%;
+}
+
+.saleoff table th{
+    color: white;
+    background: #14A79F;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.saleoff .name{
+    width: 50px;
+    padding: 0px;
+}
+
+.saleoff table td{
+    padding: 0 10px 0 10px;
+    border: 1px solid black;
+}
+
+.consultation{
+    background: rgb(235, 235, 235);
+}
+
+.consultation h1{
+    display: flex;
+    justify-content: center;
+    color: #14A79F;
+    padding-top: 20px;
+}
+
+.consultation .form{
+    display: flex;
+}
+
+.consultation img{
+    width: 70%;
+}
+
+.form-content{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    text-align: center;
+    margin-left: 60px;
+}
+
+form p{
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.thongtin{
+    margin-left: -30%;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.thongtin label{
+    color: #F79432;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.thongtin input{
+    width: 400px;
+    height: 20px;
+}
+
+.thongtin input.name{
+    margin-left: 120px;
+}
+
+.thongtin input.phone{
+    margin-left: 148px;
+    
+}
+
+.thongtin input.address{
+    margin-left: 135px;
+}
+
+.nut button{
+    background: #F79432;
+    color: white;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.nut button.send{
+    padding: 20px 45px 20px 45px;
+}
+
+.footer{
+    color: white;
+    background: #14A79F;
+    padding: 5px 0 5px 0px;
+    margin-top: 20px;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+}
+
+.footer h4{
+    display: flex;
+    justify-content: center;
+}
